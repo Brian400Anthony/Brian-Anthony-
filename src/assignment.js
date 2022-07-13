@@ -14,9 +14,12 @@ const assignment = {};
  * @returns number the sum of the numbers
  */
 function sumOfNumbers(arrayOfNumbers) {
-    return arrayOfNumbers.length;
-}
-// assignment.sumOfNumbers = sumOfNumbers;
+Let sum= 0;
+for (let i= 0; i < arrayOfNumbers.length; i++){ 
+sum+= array0fNumbers[i]
+} 
+   return sum;
+ assignment.sumOfNumbers = sumOfNumbers;
 
 /**
  * Challenge - 2
@@ -27,10 +30,16 @@ function sumOfNumbers(arrayOfNumbers) {
  * @param {Array} arrayOfNumbers the array containing even or non-even numbers
  * @returns number the count of even numbers
  */
+let number= []
 function countEvenNumbers(arrayOfNumbers) {
-    return arrayOfNumbers.length;
+for(let i= 0; < array0fNumbers.length; i++){
+ if(array0fNumbers [i] % 2 == 0){
+  number.push(array0fNumbers[i]);
+  };
+ };
+    return numbers.length;
 }
-// assignment.countEvenNumbers = countEvenNumbers;
+assignment.countEvenNumbers = countEvenNumbers;
 
 /**
  * Challenge - 3
