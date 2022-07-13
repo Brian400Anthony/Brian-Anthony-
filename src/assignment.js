@@ -38,7 +38,7 @@ for(let i= 0; i < arrayOfNumbers.length; i++){
   number.push(arrayOfNumbers[i]);
   };
  };
-  return numbers.length;
+  return number.length;
 }
 assignment.countEvenNumbers = countEvenNumbers;
 
