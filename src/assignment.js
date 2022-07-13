@@ -33,7 +33,7 @@ sum+= array0fNumbers[i]
  */
  let number= []
 function countEvenNumbers(arrayOfNumbers) {
-for(let i= 0; < array0fNumbers.length; i++){
+for(let i= 0; i < array0fNumbers.length; i++){
  if(array0fNumbers[i] % 2 == 0) {
   number.push(array0fNumbers[i]);
   };
